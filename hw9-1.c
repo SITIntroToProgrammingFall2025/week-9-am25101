@@ -25,8 +25,9 @@ int main()
 	product1=a[0][0]*a[1][1];
 	product2=a[0][1]*a[1][0];
 	determinant=product1-product2;
-	printf("Determinant is %.5f",determinant);
+	printf("Determinant is %.6f",determinant);
 	return 0;
 }
+
 
 
