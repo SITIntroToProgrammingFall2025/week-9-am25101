@@ -28,7 +28,7 @@ int main()
     printf("The second matrix you entered is\n");
     for(i = 0; i < 3; i++){
         for(j = 0; j < 2; j++){
-            printf("%.lf ", b[i][j]);
+            printf("%.1f ", b[i][j]);
         }
         printf("\n");
     }
@@ -36,7 +36,7 @@ int main()
         for(j = 0; j < 2; j++){
             c[i][j] = 0;
 
-            for(k=0;k<2;k++){
+            for(k=0;k<3;k++){
                 c[i][j] += a[i][k] * b[k][j];
             }
         }
@@ -51,6 +51,7 @@ int main()
     }
 	return 0;
 }
+
 
 
 
